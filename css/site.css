@@ -9,7 +9,7 @@
   /* imports the open dyslexia font */
 
   .container {
-    background-image:url("1home.png");
+    background-image:url("..1home.png");
     background-repeat: no-repeat;
     height: 40em;
     background-size: cover;
