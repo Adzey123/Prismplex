@@ -83,7 +83,7 @@
     align-items: center; /* centres them vertically */
     justify-content: space-between; /* puts navbar at right */
     padding: 15px; /* adds space at the top */
-    background-color: #1f1434/* blue */; /* the background color */
+    background-color: #bebebe/* blue */; /* the background color */
   }
   
   /* to style the logo image if wanted 
@@ -160,7 +160,7 @@
   
   /* creates the dropdown menu */
   .dropdown {
-    background-color: #1f1434; /* this makes the dropdown menu colored */
+    background-color: #bebebe; /* this makes the dropdown menu colored */
     padding: 1em 0;
     position: absolute;
     display: none;
@@ -181,4 +181,4 @@
   /*
   Colors
   Navy Blue: #1f1434
-  
+  Grey: #bebebe
