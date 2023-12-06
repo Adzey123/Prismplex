@@ -98,6 +98,7 @@
     display: flex;
     flex-wrap: wrap;
     /* stops horizontal scroll */
+    align-items: center;
   }
   /* makes the font size and the horizzontal scroll correct */
   /* makes the links change color when you hover over them */
