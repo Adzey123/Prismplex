@@ -109,6 +109,18 @@
   }
   /* makes the links change color when you hover over them */
   
+  .joindc {
+    font-size: 18px; /* makes the font size correct */
+    /* stops horizontal scroll */
+    display: flex;
+    flex-wrap: wrap;
+    /* stops horizontal scroll */
+    background-color: #5865f2 /* discord blue */;
+    border-radius: 5px;
+  }
+
+
+
   /* makes the links change color when you hover over them */
   .dropdown li:hover {
     background-color: #4c9e9e /* teal */;
