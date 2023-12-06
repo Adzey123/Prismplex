@@ -15,16 +15,24 @@
     background-size: cover;
   }
 
-  .card {
+  /* .card {
     border-radius: 8px;
-    /* backdrop-filter: blur(5px); */
+    /* backdrop-filter: blur(5px); 
     background-color: #ffffff80;
     width: 50%;
     height: 20%;
     margin: auto;
     top: 100%;
     transform: translateY(20%);
+  } 
+  .dclink {
+    width: 90%;
+    margin: auto;
+    top: 100%;
+    /* transform: translateY(20%); 
   }
+
+  */
 
   .card2 {
     border-radius: 8px;
@@ -37,12 +45,6 @@
     transform: translateY(20%);
   }
 
-  .dclink {
-    width: 90%;
-    margin: auto;
-    top: 100%;
-    /* transform: translateY(20%); */
-  }
 
 
 
