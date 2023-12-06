@@ -130,6 +130,11 @@
     color: #ffffff /* White */;
 
   }
+  .discordlogo {
+    transform: translateY(20%)
+  }
+
+
 
 
   /* makes the links change color when you hover over them */
