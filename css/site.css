@@ -81,7 +81,7 @@
     display: flex; /* stops the logo being on top of everything else */
     align-items: center; /* centres them vertically */
     justify-content: space-between; /* puts navbar at right */
-    padding: 20px; /* adds space at the top */
+    padding: 10px; /* adds space at the top */
     background-color: #1f1434/* blue */; /* the background color */
   }
   
