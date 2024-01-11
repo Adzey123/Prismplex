@@ -223,11 +223,225 @@
   }
 }
 
-.about-container {
+.crimson-container {
   width: 100%;
   display: flex;
   overflow: auto;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+}
+.crimson-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.crimson-image {
+  width: 200px;
+  margin-top: 100px;
+  object-fit: cover;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+}
+.crimson-max-width {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  flex-direction: column;
+  padding-bottom: 0px;
+  justify-content: flex-end;
+}
+.crimson-heading-container {
+  flex: 1;
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.crimson-text {
+  align-self: flex-start;
+  text-align: center;
+  font-family: "Arial";
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.crimson-text-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  flex-direction: column;
+}
+.crimson-text01 {
+  color: var(--dl-color-scheme-black80);
+  text-align: left;
+  line-height: 26px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.crimson-hero {
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.crimson-max-width1 {
+  margin-top: 0px;
+}
+.crimson-gallery {
+  width: 100%;
+  display: flex;
+  grid-gap: 20px;
+  align-items: stretch;
+}
+.crimson-container2 {
+  width: 25%;
+  align-self: stretch;
+}
+.crimson-image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.crimson-container3 {
+  width: 25%;
+  display: flex;
+  grid-gap: 20px;
+  align-items: stretch;
+  flex-direction: column;
+}
+.crimson-image2 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.crimson-image3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.crimson-container4 {
+  width: 50%;
+  display: flex;
+  grid-gap: 20px;
+  flex-direction: column;
+}
+.crimson-container5 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius8);
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://play.teleporthq.io/static/svg/placeholders/no-image.svg');
+  background-position: center;
+}
+.crimson-image4 {
+  width: 539px;
+  height: 246px;
+  object-fit: cover;
+}
+.crimson-container6 {
+  width: 100%;
+  display: flex;
+  grid-gap: 20px;
+}
+.crimson-image5 {
+  flex: 1;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.crimson-image6 {
+  flex: 1;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+@media(max-width: 1600px) {
+  .crimson-image {
+    padding-top: var(--dl-space-space-threeunits);
+  }
+  .crimson-max-width {
+    padding-top: 0px;
+  }
+  .crimson-text {
+    font-family: Arial;
+  }
+  .crimson-text-container {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .crimson-text01 {
+    color: var(--dl-color-scheme-black80);
+    align-self: flex-start;
+    text-align: left;
+    line-height: 26px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .crimson-hero {
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 1200px) {
+  .crimson-text {
+    font-family: Arial;
+  }
+  .crimson-hero {
+    padding: 69px;
+    padding-top: 0px;
+  }
+}
+@media(max-width: 991px) {
+  .crimson-max-width {
+    flex-direction: column;
+  }
+  .crimson-heading-container {
+    max-width: 100%;
+    margin-bottom: 42px;
+  }
+  .crimson-gallery {
+    flex-direction: column;
+  }
+  .crimson-container2 {
+    width: 100%;
+  }
+  .crimson-container3 {
+    width: 100%;
+    flex-direction: row;
+  }
+  .crimson-container4 {
+    width: 100%;
+    align-items: stretch;
+  }
+}
+@media(max-width: 767px) {
+  .crimson-text {
+    font-size: 48px;
+  }
+  .crimson-container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .crimson-image2 {
+    height: 100%;
+  }
+  .crimson-container6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .crimson-image5 {
+    width: 100%;
+  }
+  .crimson-image6 {
+    width: 100%;
+  }
 }
