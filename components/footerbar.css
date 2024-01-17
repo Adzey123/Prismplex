@@ -79,24 +79,16 @@
   padding-left: 0px;
 }
 
+
+
+
+
+
+
+
 @media(max-width: 1600px) {
-  .footerbar-container {
-    top: 40px;
-    right: -3px;
-    height: 87px;
-    box-shadow: 5px 5px 10px 0px #d4d4d4;
-  }
   .footerbar-social-bar {
     flex-wrap: wrap;
-  }
-  .footerbar-image {
-    margin-left: var(--dl-space-space-twounits);
-  }
-  .footerbar-image1 {
-    margin-left: var(--dl-space-space-twounits);
-  }
-  .footerbar-icon2 {
-    margin-left: var(--dl-space-space-twounits);
   }
   .footerbar-text {
     z-index: 100;
