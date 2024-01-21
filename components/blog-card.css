@@ -19,7 +19,7 @@
   line-height: 26px;
   margin-bottom: var(--dl-space-space-unit);
 }
-.blog-card-text3 {
+.blog-card-text1 {
   text-decoration: underline;
 }
 
@@ -30,6 +30,15 @@
 
 
 
+
+@media(max-width: 1600px) {
+  .blog-card-text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+  }
+}
 @media(max-width: 991px) {
   .blog-card-blog-card {
     max-width: 550px;
@@ -38,12 +47,6 @@
 @media(max-width: 767px) {
   .blog-card-blog-card {
     max-width: 450px;
-  }
-  .blog-card-root-class-name {
-    margin-bottom: var(--dl-space-space-twounits);
-  }
-  .blog-card-root-class-name1 {
-    margin-bottom: var(--dl-space-space-twounits);
   }
   .blog-card-root-class-name2 {
     margin-bottom: var(--dl-space-space-twounits);
