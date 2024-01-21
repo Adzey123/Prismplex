@@ -413,6 +413,50 @@
   line-height: 26px;
   margin-bottom: var(--dl-space-space-twounits);
 }
+.guides-container6 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.guides-slider {
+  width: 1000px;
+  height: 570px;
+  display: inline-block;
+}
+.guides-slider-slide {
+  display: flex;
+  background-size: 100%;
+  background-image: url('https://prismplex.net/assets/ecoguide/1.png');
+}
+.guides-slider-slide1 {
+  display: flex;
+  background-size: 100%;
+  background-image: url('https://prismplex.net/assets/ecoguide/2.png');
+}
+.guides-slider-slide2 {
+  display: flex;
+  background-size: 100%;
+  background-image: url('https://prismplex.net/assets/ecoguide/3.png');
+}
+.guides-slider-slide3 {
+  display: flex ;
+  background-size: 100%;
+  background-image: url('https://prismplex.net/assets/ecoguide/4.png');
+}
+.guides-slider-slide4 {
+  display: flex ;
+  background-size: 100%;
+  background-image: url('https://prismplex.net/assets/ecoguide/5.png');
+}
+.guides-slider-slide5 {
+  display: flex ;
+  background-size: 100%;
+  background-image: url('https://prismplex.net/assets/ecoguide/6.png');
+}
+.guides-slider-pagination {
+  display: block;
+}
 @media(max-width: 1600px) {
   .guides-text {
     font-family: Arial;
@@ -841,6 +885,10 @@
     color: var(--dl-color-scheme-black80);
     line-height: 26px;
   }
+  .guides-slider {
+    width: 938px;
+    height: 568px;
+  }
 }
 @media(max-width: 1200px) {
   .guides-text {
@@ -882,6 +930,10 @@
   .guides-text176 {
     color: var(--dl-color-scheme-black80);
     line-height: 26px;
+  }
+  .guides-slider {
+    width: 754px;
+    height: 456px;
   }
 }
 @media(max-width: 991px) {
@@ -925,6 +977,10 @@
     max-width: 100%;
     margin-bottom: 42px;
   }
+  .guides-slider {
+    width: 601px;
+    height: 363px;
+  }
 }
 @media(max-width: 767px) {
   .guides-text {
@@ -938,5 +994,15 @@
   }
   .guides-text175 {
     font-size: 48px;
+  }
+  .guides-slider {
+    width: 447px;
+    height: 269px;
+  }
+}
+@media(max-width: 479px) {
+  .guides-slider {
+    width: 252px;
+    height: 151px;
   }
 }
