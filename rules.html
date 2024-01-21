@@ -648,6 +648,22 @@
               a:hover {
                   border-bottom: 0;
               }
+
+              .button {
+                  padding: 7px 15px;
+                  text-align: center;
+                  display: inline-block;
+                  margin: 4px 2px;
+                  cursor: pointer;
+                  border-radius: 12px;
+                  background-color: white;
+                  color: black;
+                  border: 2px solid #e7e7e7;
+              }
+
+              .button:hover {
+                  background-color: #e7e7e7;
+              }
             </style>
 
             <header>
@@ -741,7 +757,7 @@
                 staff. Self-Promotion from new members that have not yet engaged
                 with the community may not be allowed.
                 <br />
-                <button onclick="toggleText2()" id="textButton2">
+                <button onclick="toggleText2()" id="textButton2" class="button">
                   Show More
                 </button>
                 <span id="points2"></span>
@@ -996,7 +1012,7 @@
                 final say on what is allowed and what isn't; if you are unsure,
                 ask a staff member first.
                 <br />
-                <button onclick="toggleText1()" id="textButton1">
+                <button onclick="toggleText1()" id="textButton1" class="button">
                   Show More
                 </button>
                 <span id="points1"></span>
