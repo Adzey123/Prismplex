@@ -13,34 +13,16 @@
   flex-direction: column;
   justify-content: center;
 }
-.guides-text {
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-twounits);
-  text-align: center;
-  font-family: "Arial";
-  margin-bottom: var(--dl-space-space-unit);
-}
-.guides-text001 {
-  align-self: flex-start;
-  margin-top: var(--dl-space-space-twounits);
-  text-align: center;
-  margin-bottom: var(--dl-space-space-unit);
-}
 .guides-about1 {
   padding-top: 0px;
   background-color: #ffffff;
 }
 .guides-max-width {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   padding-left: 0px;
   padding-right: 0px;
   flex-direction: row;
   justify-content: space-between;
-}
-.guides-text003 {
-  color: var(--dl-color-scheme-black80);
-  align-self: flex-start;
-  line-height: 26px;
-  margin-bottom: var(--dl-space-space-twounits);
 }
 .guides-commands {
   display: flex;
@@ -65,7 +47,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.guides-text004 {
+.guides-text {
   align-self: flex-start;
   margin-top: var(--dl-space-space-oneandhalfunits);
   text-align: center;
@@ -78,7 +60,7 @@
   margin-bottom: 0px;
   flex-direction: column;
 }
-.guides-text005 {
+.guides-text001 {
   color: var(--dl-color-scheme-black80);
   text-align: left;
   line-height: 26px;
@@ -110,7 +92,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.guides-text006 {
+.guides-text002 {
   color: #000000;
   align-self: center;
   padding-bottom: var(--dl-space-space-oneandhalfunits);
@@ -123,7 +105,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.guides-text007 {
+.guides-text003 {
   color: #000000;
   align-self: center;
   padding-bottom: var(--dl-space-space-oneandhalfunits);
@@ -153,65 +135,65 @@
   padding-right: var(--dl-space-space-halfunit);
   flex-direction: column;
 }
-.guides-text008 {
+.guides-text004 {
   font-style: normal;
   font-weight: 500;
 }
-.guides-text009 {
+.guides-text005 {
   font-weight: 700;
 }
-.guides-text014 {
+.guides-text010 {
   font-weight: 700;
 }
-.guides-text019 {
+.guides-text015 {
   font-weight: 700;
 }
-.guides-text024 {
+.guides-text020 {
   font-weight: 700;
 }
-.guides-text029 {
+.guides-text025 {
   font-weight: 700;
 }
-.guides-text034 {
+.guides-text030 {
   font-weight: 700;
 }
-.guides-text039 {
+.guides-text035 {
+  font-weight: 700;
+}
+.guides-text040 {
+  font-weight: 700;
+}
+.guides-text041 {
+  font-weight: 700;
+}
+.guides-text042 {
+  font-weight: 700;
+}
+.guides-text043 {
   font-weight: 700;
 }
 .guides-text044 {
   font-weight: 700;
 }
-.guides-text045 {
+.guides-text049 {
   font-weight: 700;
 }
-.guides-text046 {
+.guides-text054 {
   font-weight: 700;
 }
-.guides-text047 {
-  font-weight: 700;
-}
-.guides-text048 {
-  font-weight: 700;
-}
-.guides-text053 {
-  font-weight: 700;
-}
-.guides-text058 {
-  font-weight: 700;
-}
-.guides-text063 {
+.guides-text059 {
   color: #0052ff;
   font-weight: 700;
 }
-.guides-text067 {
+.guides-text063 {
   color: #9b00ff;
   font-weight: 700;
 }
-.guides-text071 {
+.guides-text067 {
   color: #e400ff;
   font-weight: 700;
 }
-.guides-text075 {
+.guides-text071 {
   font-weight: 700;
 }
 .guides-text-container2 {
@@ -223,38 +205,38 @@
   margin-bottom: 0px;
   flex-direction: column;
 }
-.guides-text079 {
+.guides-text075 {
   font-style: normal;
   font-weight: 500;
 }
-.guides-text080 {
+.guides-text076 {
   font-weight: 700;
 }
-.guides-text085 {
+.guides-text081 {
   font-weight: 700;
 }
-.guides-text090 {
+.guides-text086 {
   font-weight: 700;
 }
-.guides-text095 {
+.guides-text091 {
   font-weight: 700;
 }
-.guides-text100 {
+.guides-text096 {
   font-weight: 700;
 }
-.guides-text105 {
+.guides-text101 {
   font-weight: 700;
 }
-.guides-text110 {
+.guides-text106 {
   font-weight: 700;
 }
-.guides-text115 {
+.guides-text111 {
   font-weight: 700;
 }
-.guides-text120 {
+.guides-text116 {
   font-weight: 700;
 }
-.guides-text125 {
+.guides-text121 {
   font-weight: 700;
 }
 .guides-container3 {
@@ -275,7 +257,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.guides-text130 {
+.guides-text126 {
   color: #000000;
   align-self: center;
   padding-bottom: 0px;
@@ -288,7 +270,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.guides-text131 {
+.guides-text127 {
   color: #000000;
   align-self: center;
   padding-bottom: 0px;
@@ -316,34 +298,34 @@
   margin-bottom: 0px;
   flex-direction: column;
 }
-.guides-text132 {
+.guides-text128 {
   align-self: flex-start;
   font-style: normal;
   text-align: left;
   font-weight: 500;
 }
-.guides-text133 {
+.guides-text129 {
   font-weight: 700;
 }
-.guides-text138 {
+.guides-text134 {
   font-weight: 700;
 }
-.guides-text139 {
+.guides-text135 {
   font-weight: 700;
 }
-.guides-text140 {
+.guides-text136 {
   font-weight: 700;
 }
-.guides-text145 {
+.guides-text141 {
   font-weight: 700;
 }
-.guides-text150 {
+.guides-text146 {
   font-weight: 700;
 }
-.guides-text151 {
+.guides-text147 {
   font-weight: 700;
 }
-.guides-text152 {
+.guides-text148 {
   font-weight: 700;
 }
 .guides-text-container4 {
@@ -354,27 +336,27 @@
   margin-bottom: 0px;
   flex-direction: column;
 }
-.guides-text156 {
+.guides-text152 {
   align-self: flex-start;
   font-style: normal;
   font-weight: 500;
 }
-.guides-text157 {
+.guides-text153 {
   font-weight: 700;
 }
-.guides-text162 {
+.guides-text158 {
   font-weight: 700;
 }
-.guides-text164 {
+.guides-text160 {
   font-weight: 700;
 }
-.guides-text169 {
+.guides-text165 {
   font-weight: 700;
 }
-.guides-text170 {
+.guides-text166 {
   font-weight: 700;
 }
-.guides-text171 {
+.guides-text167 {
   font-weight: 700;
 }
 .guides-economy-guide {
@@ -400,14 +382,14 @@
   flex-direction: column;
   justify-content: center;
 }
-.guides-text175 {
+.guides-text171 {
   align-self: flex-start;
   margin-top: var(--dl-space-space-twounits);
   text-align: center;
   font-family: "Arial";
   margin-bottom: var(--dl-space-space-unit);
 }
-.guides-text176 {
+.guides-text172 {
   color: var(--dl-color-scheme-black80);
   align-self: flex-start;
   line-height: 26px;
@@ -458,13 +440,6 @@
   display: block;
 }
 @media(max-width: 1600px) {
-  .guides-text {
-    font-family: Arial;
-  }
-  .guides-text003 {
-    color: var(--dl-color-scheme-black80);
-    margin-bottom: 0px;
-  }
   .guides-max-width1 {
     margin-top: 0px;
     padding-top: var(--dl-space-space-oneandhalfunits);
@@ -476,13 +451,13 @@
   .guides-heading-container {
     padding-bottom: var(--dl-space-space-halfunit);
   }
-  .guides-text004 {
+  .guides-text {
     font-family: Arial;
   }
   .guides-text-container {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .guides-text005 {
+  .guides-text001 {
     color: var(--dl-color-scheme-black80);
     align-self: flex-start;
     text-align: left;
@@ -506,7 +481,7 @@
   .guides-heading-container1 {
     padding-bottom: 0px;
   }
-  .guides-text006 {
+  .guides-text002 {
     color: rgb(0, 0, 0);
     padding-bottom: 0px;
   }
@@ -516,7 +491,7 @@
     padding-bottom: 0px;
     justify-content: center;
   }
-  .guides-text007 {
+  .guides-text003 {
     color: rgb(0, 0, 0);
     align-self: center;
     padding-bottom: 0px;
@@ -534,7 +509,7 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  .guides-text008 {
+  .guides-text004 {
     width: auto;
     align-self: flex-start;
     font-style: normal;
@@ -542,56 +517,56 @@
     font-weight: 500;
     padding-right: 5px;
   }
-  .guides-text009 {
+  .guides-text005 {
     font-weight: 700;
   }
-  .guides-text014 {
+  .guides-text010 {
     font-weight: 700;
   }
-  .guides-text019 {
+  .guides-text015 {
     font-weight: 700;
   }
-  .guides-text024 {
+  .guides-text020 {
     font-weight: 700;
   }
-  .guides-text029 {
+  .guides-text025 {
     font-weight: 700;
   }
-  .guides-text034 {
+  .guides-text030 {
     font-weight: 700;
   }
-  .guides-text039 {
+  .guides-text035 {
+    font-weight: 700;
+  }
+  .guides-text040 {
+    font-weight: 700;
+  }
+  .guides-text041 {
+    font-weight: 700;
+  }
+  .guides-text042 {
+    font-weight: 700;
+  }
+  .guides-text043 {
     font-weight: 700;
   }
   .guides-text044 {
     font-weight: 700;
   }
-  .guides-text045 {
+  .guides-text049 {
     font-weight: 700;
   }
-  .guides-text046 {
+  .guides-text054 {
     font-weight: 700;
   }
-  .guides-text047 {
-    font-weight: 700;
-  }
-  .guides-text048 {
-    font-weight: 700;
-  }
-  .guides-text053 {
-    font-weight: 700;
-  }
-  .guides-text058 {
-    font-weight: 700;
-  }
-  .guides-text075 {
+  .guides-text071 {
     font-weight: 700;
   }
   .guides-text-container2 {
     width: 50%;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .guides-text079 {
+  .guides-text075 {
     width: auto;
     align-self: flex-start;
     font-style: normal;
@@ -599,8 +574,20 @@
     font-weight: 500;
     padding-left: 5px;
   }
-  .guides-text080 {
+  .guides-text076 {
     font-weight: bold;
+  }
+  .guides-text078 {
+    font-weight: 500;
+  }
+  .guides-text079 {
+    font-weight: 500;
+  }
+  .guides-text080 {
+    font-weight: 500;
+  }
+  .guides-text081 {
+    font-weight: 700;
   }
   .guides-text082 {
     font-weight: 500;
@@ -612,22 +599,22 @@
     font-weight: 500;
   }
   .guides-text085 {
-    font-weight: 700;
+    font-weight: 500;
   }
   .guides-text086 {
-    font-weight: 500;
-  }
-  .guides-text087 {
-    font-weight: 500;
-  }
-  .guides-text088 {
-    font-weight: 500;
+    font-weight: 700;
   }
   .guides-text089 {
     font-weight: 500;
   }
   .guides-text090 {
+    font-weight: 500;
+  }
+  .guides-text091 {
     font-weight: 700;
+  }
+  .guides-text092 {
+    font-weight: 500;
   }
   .guides-text093 {
     font-weight: 500;
@@ -636,10 +623,10 @@
     font-weight: 500;
   }
   .guides-text095 {
-    font-weight: 700;
+    font-weight: 500;
   }
   .guides-text096 {
-    font-weight: 500;
+    font-weight: 700;
   }
   .guides-text097 {
     font-weight: 500;
@@ -651,10 +638,10 @@
     font-weight: 500;
   }
   .guides-text100 {
-    font-weight: 700;
+    font-weight: 500;
   }
   .guides-text101 {
-    font-weight: 500;
+    font-weight: 700;
   }
   .guides-text102 {
     font-weight: 500;
@@ -666,10 +653,10 @@
     font-weight: 500;
   }
   .guides-text105 {
-    font-weight: 700;
+    font-weight: 500;
   }
   .guides-text106 {
-    font-weight: 500;
+    font-weight: 700;
   }
   .guides-text107 {
     font-weight: 500;
@@ -681,10 +668,10 @@
     font-weight: 500;
   }
   .guides-text110 {
-    font-weight: 700;
+    font-weight: 500;
   }
   .guides-text111 {
-    font-weight: 500;
+    font-weight: 700;
   }
   .guides-text112 {
     font-weight: 500;
@@ -696,10 +683,10 @@
     font-weight: 500;
   }
   .guides-text115 {
-    font-weight: 700;
+    font-weight: 500;
   }
   .guides-text116 {
-    font-weight: 500;
+    font-weight: 700;
   }
   .guides-text117 {
     font-weight: 500;
@@ -711,7 +698,7 @@
     font-weight: 500;
   }
   .guides-text120 {
-    font-weight: 700;
+    font-weight: 500;
   }
   .guides-text121 {
     font-weight: 500;
@@ -728,18 +715,6 @@
   .guides-text125 {
     font-weight: 500;
   }
-  .guides-text126 {
-    font-weight: 500;
-  }
-  .guides-text127 {
-    font-weight: 500;
-  }
-  .guides-text128 {
-    font-weight: 500;
-  }
-  .guides-text129 {
-    font-weight: 500;
-  }
   .guides-container3 {
     width: 100%;
     margin-bottom: var(--dl-space-space-unit);
@@ -747,7 +722,7 @@
   .guides-heading-container3 {
     padding-bottom: 0px;
   }
-  .guides-text130 {
+  .guides-text126 {
     color: rgb(0, 0, 0);
     padding-bottom: 0px;
   }
@@ -757,7 +732,7 @@
     padding-bottom: 0px;
     justify-content: center;
   }
-  .guides-text131 {
+  .guides-text127 {
     color: rgb(0, 0, 0);
     align-self: center;
     padding-bottom: 0px;
@@ -775,7 +750,7 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  .guides-text132 {
+  .guides-text128 {
     width: auto;
     align-self: flex-start;
     font-style: normal;
@@ -783,32 +758,32 @@
     font-weight: 500;
     padding-right: 5px;
   }
+  .guides-text129 {
+    font-weight: 700;
+  }
+  .guides-text132 {
+    font-weight: 700;
+  }
   .guides-text133 {
+    font-weight: 700;
+  }
+  .guides-text134 {
+    font-weight: 700;
+  }
+  .guides-text135 {
     font-weight: 700;
   }
   .guides-text136 {
     font-weight: 700;
   }
-  .guides-text137 {
-    font-weight: 700;
-  }
-  .guides-text138 {
-    font-weight: 700;
-  }
-  .guides-text139 {
-    font-weight: 700;
-  }
-  .guides-text140 {
-    font-weight: 700;
-  }
-  .guides-text145 {
+  .guides-text141 {
     font-weight: 700;
   }
   .guides-text-container4 {
     width: 50%;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .guides-text156 {
+  .guides-text152 {
     width: auto;
     align-self: flex-start;
     font-style: normal;
@@ -816,8 +791,20 @@
     font-weight: 500;
     padding-left: 5px;
   }
-  .guides-text157 {
+  .guides-text153 {
     font-weight: bold;
+  }
+  .guides-text155 {
+    font-weight: 500;
+  }
+  .guides-text156 {
+    font-weight: 500;
+  }
+  .guides-text157 {
+    font-weight: 500;
+  }
+  .guides-text158 {
+    font-weight: 700;
   }
   .guides-text159 {
     font-weight: 500;
@@ -829,7 +816,7 @@
     font-weight: 500;
   }
   .guides-text162 {
-    font-weight: 700;
+    font-weight: 500;
   }
   .guides-text163 {
     font-weight: 500;
@@ -838,33 +825,21 @@
     font-weight: 500;
   }
   .guides-text165 {
-    font-weight: 500;
+    font-weight: 700;
   }
   .guides-text166 {
     font-weight: 500;
   }
   .guides-text167 {
-    font-weight: 500;
+    font-weight: 700;
   }
   .guides-text168 {
     font-weight: 500;
   }
   .guides-text169 {
-    font-weight: 700;
+    font-weight: 500;
   }
   .guides-text170 {
-    font-weight: 500;
-  }
-  .guides-text171 {
-    font-weight: 700;
-  }
-  .guides-text172 {
-    font-weight: 500;
-  }
-  .guides-text173 {
-    font-weight: 500;
-  }
-  .guides-text174 {
     font-weight: 500;
   }
   .guides-max-width2 {
@@ -878,10 +853,10 @@
   .guides-heading-container5 {
     padding-bottom: var(--dl-space-space-halfunit);
   }
-  .guides-text175 {
+  .guides-text171 {
     font-family: Arial;
   }
-  .guides-text176 {
+  .guides-text172 {
     color: var(--dl-color-scheme-black80);
     line-height: 26px;
   }
@@ -892,42 +867,32 @@
 }
 @media(max-width: 1200px) {
   .guides-text {
-    font-family: Arial;
-  }
-  .guides-text001 {
-    font-family: Arial;
-  }
-  .guides-text003 {
-    color: var(--dl-color-scheme-black80);
-    line-height: 26px;
-  }
-  .guides-text004 {
     margin-top: var(--dl-space-space-twounits);
     font-family: Arial;
   }
-  .guides-text005 {
+  .guides-text001 {
     color: var(--dl-color-scheme-black80);
   }
-  .guides-text006 {
+  .guides-text002 {
     color: #000000;
     padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .guides-text007 {
+  .guides-text003 {
     color: #000000;
     padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .guides-text130 {
+  .guides-text126 {
     color: #000000;
     padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .guides-text131 {
+  .guides-text127 {
     color: #000000;
     padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .guides-text175 {
+  .guides-text171 {
     font-family: Arial;
   }
-  .guides-text176 {
+  .guides-text172 {
     color: var(--dl-color-scheme-black80);
     line-height: 26px;
   }
@@ -986,13 +951,7 @@
   .guides-text {
     font-size: 48px;
   }
-  .guides-text001 {
-    font-size: 48px;
-  }
-  .guides-text004 {
-    font-size: 48px;
-  }
-  .guides-text175 {
+  .guides-text171 {
     font-size: 48px;
   }
   .guides-slider {
