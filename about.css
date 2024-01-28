@@ -513,17 +513,20 @@
 }
 .about-text004 {
   color: var(--dl-color-gray-700);
+  align-self: center;
+  text-align: justify;
 }
 .about-image {
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   flex-shrink: 0;
-  margin-left: var(--dl-space-space-fourunits);
+  margin-left: var(--dl-space-space-halfunit);
   object-position: left;
 }
-.about-text005 {
+.about-text016 {
   font-size: 3rem;
+  margin-top: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-twounits);
 }
 .about-separator1 {
@@ -558,7 +561,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.about-text006 {
+.about-text017 {
   color: var(--dl-color-scheme-black80);
   align-self: flex-start;
   line-height: 26px;
@@ -582,183 +585,183 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.about-text010 {
+.about-text021 {
   align-self: center;
   font-weight: 600;
   margin-bottom: 0px;
-}
-.about-text013 {
-  font-family: "Arial";
-}
-.about-text018 {
-  font-weight: 700;
-}
-.about-text020 {
-  font-family: "Arial";
-}
-.about-text022 {
-  font-weight: 700;
 }
 .about-text024 {
   font-family: "Arial";
 }
-.about-text026 {
+.about-text029 {
   font-weight: 700;
 }
-.about-text030 {
-  font-weight: 700;
-}
-.about-text032 {
+.about-text031 {
   font-family: "Arial";
 }
-.about-text034 {
+.about-text033 {
   font-weight: 700;
 }
-.about-text036 {
+.about-text035 {
   font-family: "Arial";
 }
-.about-text038 {
+.about-text037 {
   font-weight: 700;
 }
-.about-text040 {
+.about-text041 {
+  font-weight: 700;
+}
+.about-text043 {
   font-family: "Arial";
 }
-.about-text042 {
+.about-text045 {
   font-weight: 700;
 }
-.about-text044 {
+.about-text047 {
   font-family: "Arial";
 }
-.about-text046 {
+.about-text049 {
   font-weight: 700;
 }
-.about-text048 {
+.about-text051 {
   font-family: "Arial";
-}
-.about-text050 {
-  font-weight: 700;
-}
-.about-text052 {
-  color: #007fff;
-  text-decoration: underline;
 }
 .about-text053 {
-  color: #007fff;
-  text-decoration: underline;
+  font-weight: 700;
 }
-.about-text056 {
-  align-self: center;
-  font-weight: 600;
-  margin-bottom: 0px;
+.about-text055 {
+  font-family: "Arial";
+}
+.about-text057 {
+  font-weight: 700;
 }
 .about-text059 {
   font-family: "Arial";
 }
-.about-text062 {
-  font-family: "Arial";
+.about-text061 {
+  font-weight: 700;
+}
+.about-text063 {
+  color: #007fff;
+  text-decoration: underline;
 }
 .about-text064 {
-  font-weight: 700;
+  color: #007fff;
+  text-decoration: underline;
 }
-.about-text066 {
-  font-family: "Arial";
-}
-.about-text068 {
-  font-weight: 700;
+.about-text067 {
+  align-self: center;
+  font-weight: 600;
+  margin-bottom: 0px;
 }
 .about-text070 {
   font-family: "Arial";
 }
-.about-text072 {
-  font-weight: 700;
-}
-.about-text074 {
+.about-text073 {
   font-family: "Arial";
 }
-.about-text076 {
+.about-text075 {
   font-weight: 700;
 }
-.about-text078 {
+.about-text077 {
   font-family: "Arial";
 }
 .about-text079 {
-  color: #007fff;
-  text-decoration: underline;
+  font-weight: 700;
 }
-.about-text082 {
-  align-self: center;
-  font-weight: 600;
-  margin-bottom: 0px;
+.about-text081 {
+  font-family: "Arial";
+}
+.about-text083 {
+  font-weight: 700;
 }
 .about-text085 {
   font-family: "Arial";
 }
-.about-text088 {
+.about-text087 {
+  font-weight: 700;
+}
+.about-text089 {
   font-family: "Arial";
 }
 .about-text090 {
-  font-weight: 700;
-}
-.about-text092 {
-  font-family: "Arial";
-}
-.about-text094 {
-  font-weight: 700;
-}
-.about-text096 {
-  font-family: "Arial";
-}
-.about-text098 {
-  font-weight: 700;
-}
-.about-text100 {
-  font-family: "Arial";
-}
-.about-text102 {
-  font-weight: 700;
-}
-.about-text105 {
   color: #007fff;
   text-decoration: underline;
 }
-.about-text108 {
+.about-text093 {
   align-self: center;
   font-weight: 600;
   margin-bottom: 0px;
 }
+.about-text096 {
+  font-family: "Arial";
+}
+.about-text099 {
+  font-family: "Arial";
+}
+.about-text101 {
+  font-weight: 700;
+}
+.about-text103 {
+  font-family: "Arial";
+}
+.about-text105 {
+  font-weight: 700;
+}
+.about-text107 {
+  font-family: "Arial";
+}
+.about-text109 {
+  font-weight: 700;
+}
 .about-text111 {
   font-family: "Arial";
 }
+.about-text113 {
+  font-weight: 700;
+}
 .about-text116 {
-  font-weight: 700;
+  color: #007fff;
+  text-decoration: underline;
 }
-.about-text118 {
-  font-family: "Arial";
-}
-.about-text120 {
-  font-weight: 700;
+.about-text119 {
+  align-self: center;
+  font-weight: 600;
+  margin-bottom: 0px;
 }
 .about-text122 {
   font-family: "Arial";
 }
-.about-text124 {
+.about-text127 {
   font-weight: 700;
 }
-.about-text126 {
+.about-text129 {
   font-family: "Arial";
 }
-.about-text128 {
+.about-text131 {
   font-weight: 700;
 }
-.about-text130 {
+.about-text133 {
+  font-family: "Arial";
+}
+.about-text135 {
+  font-weight: 700;
+}
+.about-text137 {
+  font-family: "Arial";
+}
+.about-text139 {
+  font-weight: 700;
+}
+.about-text141 {
   color: #007fff;
   text-decoration: underline;
 }
-.about-text131 {
+.about-text142 {
   color: #007fff;
   text-decoration: underline;
 }
-.about-text134 {
+.about-text145 {
   font-size: 3rem;
   align-self: flex-start;
   margin-bottom: var(--dl-space-space-twounits);
@@ -769,69 +772,69 @@
   align-self: flex-start;
   background-color: #595959;
 }
-.about-text137 {
+.about-text148 {
   color: var(--dl-color-scheme-black80);
   align-self: flex-start;
   line-height: 26px;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.about-text140 {
+.about-text151 {
   align-self: center;
   font-weight: 600;
   margin-bottom: 0px;
 }
-.about-text143 {
+.about-text154 {
   font-family: "Arial";
 }
-.about-text153 {
+.about-text164 {
   color: #007fff;
   text-decoration: underline;
 }
-.about-text156 {
+.about-text167 {
   align-self: center;
   font-weight: 600;
   margin-bottom: 0px;
 }
-.about-text159 {
+.about-text170 {
   font-family: "Arial";
 }
-.about-text174 {
+.about-text185 {
   color: #007fff;
   text-decoration: underline;
 }
-.about-text175 {
+.about-text186 {
   color: #007fff;
   text-decoration: underline;
 }
-.about-text178 {
+.about-text189 {
   align-self: center;
   font-weight: 600;
   margin-bottom: 0px;
 }
-.about-text181 {
+.about-text192 {
   font-family: "Arial";
 }
-.about-text188 {
+.about-text199 {
   color: #007fff;
   text-decoration: underline;
 }
-.about-text191 {
+.about-text202 {
   align-self: center;
   font-weight: 600;
   margin-bottom: 0px;
 }
-.about-text194 {
+.about-text205 {
   font-family: "Arial";
 }
-.about-text197 {
+.about-text208 {
   color: #007fff;
   text-decoration: underline;
 }
-.about-text198 {
+.about-text209 {
   color: #007fff;
   text-decoration: underline;
 }
-.about-text201 {
+.about-text212 {
   align-self: center;
   font-weight: 600;
   margin-bottom: 0px;
@@ -841,16 +844,16 @@
   height: 75px;
   object-fit: cover;
 }
-.about-text204 {
+.about-text215 {
   font-family: "Arial";
 }
-.about-text225 {
+.about-text236 {
   font-style: italic;
 }
-.about-text242 {
+.about-text253 {
   font-style: italic;
 }
-.about-text259 {
+.about-text270 {
   align-self: center;
   font-weight: 600;
   margin-bottom: 0px;
@@ -860,19 +863,19 @@
   height: 75px;
   object-fit: cover;
 }
-.about-text262 {
+.about-text273 {
   font-family: "Arial";
 }
-.about-text267 {
-  font-style: italic;
-}
-.about-text268 {
+.about-text278 {
   font-style: italic;
 }
 .about-text279 {
   font-style: italic;
 }
-.about-text296 {
+.about-text290 {
+  font-style: italic;
+}
+.about-text307 {
   align-self: center;
   font-weight: 600;
   margin-bottom: 0px;
@@ -882,52 +885,52 @@
   height: 75px;
   object-fit: cover;
 }
-.about-text299 {
+.about-text310 {
   font-family: "Arial";
 }
 @media(max-width: 1600px) {
   .about-max-width {
     padding-top: 0px;
   }
-  .about-text006 {
+  .about-text017 {
     color: var(--dl-color-scheme-black80);
     line-height: 26px;
   }
-  .about-text013 {
+  .about-text024 {
     font-family: Arial;
   }
-  .about-text059 {
+  .about-text070 {
     font-family: Arial;
   }
-  .about-text085 {
+  .about-text096 {
     font-family: Arial;
   }
-  .about-text111 {
+  .about-text122 {
     font-family: Arial;
   }
-  .about-text137 {
+  .about-text148 {
     color: var(--dl-color-scheme-black80);
     line-height: 26px;
   }
-  .about-text143 {
+  .about-text154 {
     font-family: Arial;
   }
-  .about-text159 {
+  .about-text170 {
     font-family: Arial;
   }
-  .about-text181 {
+  .about-text192 {
     font-family: Arial;
   }
-  .about-text194 {
+  .about-text205 {
     font-family: Arial;
   }
-  .about-text204 {
+  .about-text215 {
     font-family: Arial;
   }
-  .about-text262 {
+  .about-text273 {
     font-family: Arial;
   }
-  .about-text299 {
+  .about-text310 {
     font-family: Arial;
   }
 }
@@ -935,11 +938,11 @@
   .about-max-width {
     padding: var(--dl-space-space-unit);
   }
-  .about-text006 {
+  .about-text017 {
     color: var(--dl-color-scheme-black80);
     line-height: 26px;
   }
-  .about-text137 {
+  .about-text148 {
     color: var(--dl-color-scheme-black80);
     line-height: 26px;
   }
@@ -985,7 +988,7 @@
   .about-container3 {
     flex-direction: column;
   }
-  .about-text005 {
+  .about-text016 {
     text-align: center;
   }
   .about-max-width {
@@ -998,7 +1001,7 @@
   .about-container4 {
     flex-direction: column;
   }
-  .about-text134 {
+  .about-text145 {
     text-align: center;
   }
 }
