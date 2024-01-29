@@ -4,21 +4,21 @@
   align-items: center;
   flex-direction: row;
 }
-.navigation-links-link {
+.navigation-links-navlink {
   cursor: pointer;
   transition: 0.3s;
   text-decoration: none;
 }
-.navigation-links-link:hover {
+.navigation-links-navlink:hover {
   color: var(--dl-color-scheme-brown);
 }
-.navigation-links-link1 {
+.navigation-links-navlink1 {
   cursor: pointer;
   transition: 0.3s;
   margin-left: 41px;
   text-decoration: none;
 }
-.navigation-links-link1:hover {
+.navigation-links-navlink1:hover {
   color: var(--dl-color-scheme-brown);
 }
 .navigation-links-text {
@@ -30,32 +30,31 @@
 .navigation-links-text:hover {
   color: var(--dl-color-scheme-brown);
 }
-.navigation-links-navlink {
+.navigation-links-text1 {
   cursor: pointer;
   transition: 0.3s;
   margin-left: 41px;
-  text-decoration: none;
 }
-.navigation-links-navlink:hover {
+.navigation-links-text1:hover {
   color: var(--dl-color-scheme-brown);
 }
-.navigation-links-link2 {
+.navigation-links-navlink2 {
   cursor: pointer;
   z-index: 100;
   transition: 0.3s;
   margin-left: 41px;
   text-decoration: none;
 }
-.navigation-links-link2:hover {
+.navigation-links-navlink2:hover {
   color: var(--dl-color-scheme-brown);
 }
-.navigation-links-link3 {
+.navigation-links-navlink3 {
   cursor: pointer;
   transition: 0.3s;
   margin-left: 41px;
   text-decoration: none;
 }
-.navigation-links-link3:hover {
+.navigation-links-navlink3:hover {
   color: var(--dl-color-scheme-brown);
 }
 
@@ -78,10 +77,10 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .navigation-links-link {
+  .navigation-links-navlink {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-link1 {
+  .navigation-links-navlink1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -89,15 +88,15 @@
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-navlink {
+  .navigation-links-text1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-link2 {
+  .navigation-links-navlink2 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-link3 {
+  .navigation-links-navlink3 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -522,7 +521,7 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .about-text004 {
-  color: var(--dl-color-gray-700);
+  color: var(--dl-color-scheme-black80);
   align-self: center;
   text-align: justify;
 }
@@ -562,7 +561,7 @@
 }
 .about-about {
   padding-top: 0px;
-  padding-bottom: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
   background-color: #ffffff;
 }
 .about-max-width1 {
@@ -601,7 +600,7 @@
   margin-bottom: 0px;
 }
 .about-text024 {
-  font-family: "Arial";
+  font-family: "DM Sans";
 }
 .about-text025 {
   font-family: "DM Sans";
@@ -741,7 +740,8 @@
   margin-bottom: 0px;
 }
 .about-text070 {
-  font-family: "Arial";
+  color: var(--dl-color-scheme-black);
+  font-family: "DM Sans";
 }
 .about-text073 {
   font-family: "Arial";
@@ -771,7 +771,6 @@
   font-family: "Arial";
 }
 .about-text090 {
-  color: #007fff;
   text-decoration: underline;
 }
 .about-text093 {
@@ -780,7 +779,8 @@
   margin-bottom: 0px;
 }
 .about-text096 {
-  font-family: "Arial";
+  color: var(--dl-color-scheme-black);
+  font-family: "DM Sans";
 }
 .about-text099 {
   font-family: "Arial";
@@ -807,7 +807,6 @@
   font-weight: 700;
 }
 .about-text116 {
-  color: #007fff;
   text-decoration: underline;
 }
 .about-text119 {
@@ -816,7 +815,8 @@
   margin-bottom: 0px;
 }
 .about-text122 {
-  font-family: "Arial";
+  color: var(--dl-color-scheme-black);
+  font-family: "DM Sans";
 }
 .about-text127 {
   font-weight: 700;
@@ -840,7 +840,6 @@
   font-weight: 700;
 }
 .about-text141 {
-  color: #007fff;
   text-decoration: underline;
 }
 .about-text144 {
@@ -866,10 +865,10 @@
   margin-bottom: 0px;
 }
 .about-text153 {
-  font-family: "Arial";
+  color: var(--dl-color-scheme-black);
+  font-family: "DM Sans";
 }
 .about-text163 {
-  color: #007fff;
   text-decoration: underline;
 }
 .about-text166 {
@@ -878,14 +877,13 @@
   margin-bottom: 0px;
 }
 .about-text169 {
-  font-family: "Arial";
+  color: var(--dl-color-scheme-black);
+  font-family: "DM Sans";
 }
 .about-text184 {
-  color: #007fff;
   text-decoration: underline;
 }
 .about-text185 {
-  color: #007fff;
   text-decoration: underline;
 }
 .about-text188 {
@@ -894,10 +892,10 @@
   margin-bottom: 0px;
 }
 .about-text191 {
-  font-family: "Arial";
+  color: var(--dl-color-scheme-black);
+  font-family: "DM Sans";
 }
 .about-text198 {
-  color: #007fff;
   text-decoration: underline;
 }
 .about-text201 {
@@ -906,14 +904,13 @@
   margin-bottom: 0px;
 }
 .about-text204 {
-  font-family: "Arial";
+  color: var(--dl-color-scheme-black);
+  font-family: "DM Sans";
 }
 .about-text207 {
-  color: #007fff;
   text-decoration: underline;
 }
 .about-text208 {
-  color: #007fff;
   text-decoration: underline;
 }
 .about-text211 {
@@ -927,7 +924,8 @@
   object-fit: cover;
 }
 .about-text214 {
-  font-family: "Arial";
+  color: var(--dl-color-scheme-black);
+  font-family: "DM Sans";
 }
 .about-text235 {
   font-style: italic;
@@ -946,7 +944,8 @@
   object-fit: cover;
 }
 .about-text272 {
-  font-family: "Arial";
+  color: var(--dl-color-scheme-black);
+  font-family: "DM Sans";
 }
 .about-text277 {
   font-style: italic;
@@ -968,7 +967,8 @@
   object-fit: cover;
 }
 .about-text309 {
-  font-family: "Arial";
+  color: var(--dl-color-scheme-black);
+  font-family: "DM Sans";
 }
 @media(max-width: 1600px) {
   .about-max-width {

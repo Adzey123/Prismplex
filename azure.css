@@ -4,21 +4,21 @@
   align-items: center;
   flex-direction: row;
 }
-.navigation-links-link {
+.navigation-links-navlink {
   cursor: pointer;
   transition: 0.3s;
   text-decoration: none;
 }
-.navigation-links-link:hover {
+.navigation-links-navlink:hover {
   color: var(--dl-color-scheme-brown);
 }
-.navigation-links-link1 {
+.navigation-links-navlink1 {
   cursor: pointer;
   transition: 0.3s;
   margin-left: 41px;
   text-decoration: none;
 }
-.navigation-links-link1:hover {
+.navigation-links-navlink1:hover {
   color: var(--dl-color-scheme-brown);
 }
 .navigation-links-text {
@@ -30,32 +30,31 @@
 .navigation-links-text:hover {
   color: var(--dl-color-scheme-brown);
 }
-.navigation-links-navlink {
+.navigation-links-text1 {
   cursor: pointer;
   transition: 0.3s;
   margin-left: 41px;
-  text-decoration: none;
 }
-.navigation-links-navlink:hover {
+.navigation-links-text1:hover {
   color: var(--dl-color-scheme-brown);
 }
-.navigation-links-link2 {
+.navigation-links-navlink2 {
   cursor: pointer;
   z-index: 100;
   transition: 0.3s;
   margin-left: 41px;
   text-decoration: none;
 }
-.navigation-links-link2:hover {
+.navigation-links-navlink2:hover {
   color: var(--dl-color-scheme-brown);
 }
-.navigation-links-link3 {
+.navigation-links-navlink3 {
   cursor: pointer;
   transition: 0.3s;
   margin-left: 41px;
   text-decoration: none;
 }
-.navigation-links-link3:hover {
+.navigation-links-navlink3:hover {
   color: var(--dl-color-scheme-brown);
 }
 
@@ -78,10 +77,10 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .navigation-links-link {
+  .navigation-links-navlink {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-link1 {
+  .navigation-links-navlink1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -89,15 +88,15 @@
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-navlink {
+  .navigation-links-text1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-link2 {
+  .navigation-links-navlink2 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-link3 {
+  .navigation-links-navlink3 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -533,9 +532,11 @@
   flex-direction: column;
 }
 .azure-text004 {
-  color: var(--dl-color-scheme-black80);
+  color: var(--dl-color-scheme-black);
+  font-style: normal;
   margin-top: var(--dl-space-space-twounits);
   text-align: left;
+  font-weight: 500;
   line-height: 26px;
   margin-left: 0px;
   margin-right: 0px;
@@ -567,6 +568,8 @@
 }
 .azure-text017 {
   color: var(--dl-color-scheme-black80);
+  font-style: normal;
+  font-weight: 500;
   line-height: 26px;
   margin-bottom: var(--dl-space-space-twounits);
 }
@@ -583,7 +586,11 @@
   height: 83px;
   align-self: center;
   margin-top: var(--dl-space-space-twounits);
+  padding-top: 0px;
+  padding-left: 0px;
   margin-bottom: var(--dl-space-space-twounits);
+  padding-right: 0px;
+  padding-bottom: 0px;
   text-decoration: none;
   background-color: #2578ff;
 }
@@ -655,8 +662,10 @@
   flex-direction: column;
 }
 .azure-text024 {
-  color: var(--dl-color-scheme-black80);
+  color: var(--dl-color-scheme-black);
+  font-style: normal;
   text-align: left;
+  font-weight: 500;
   line-height: 26px;
   margin-left: 0px;
   margin-right: 0px;
@@ -730,65 +739,231 @@
   flex-direction: column;
 }
 .azure-text027 {
-  font-style: normal;
+  color: var(--dl-color-scheme-black);
   font-weight: 500;
 }
 .azure-text028 {
+  font-style: normal;
   font-weight: 700;
+}
+.azure-text029 {
+  font-style: normal;
+}
+.azure-text030 {
+  font-style: normal;
+}
+.azure-text031 {
+  font-style: normal;
+}
+.azure-text032 {
+  font-style: normal;
 }
 .azure-text033 {
+  font-style: normal;
   font-weight: 700;
+}
+.azure-text034 {
+  font-style: normal;
+}
+.azure-text035 {
+  font-style: normal;
+}
+.azure-text036 {
+  font-style: normal;
+}
+.azure-text037 {
+  font-style: normal;
 }
 .azure-text038 {
+  font-style: normal;
   font-weight: 700;
+}
+.azure-text039 {
+  font-style: normal;
+}
+.azure-text040 {
+  font-style: normal;
+}
+.azure-text041 {
+  font-style: normal;
+}
+.azure-text042 {
+  font-style: normal;
 }
 .azure-text043 {
+  font-style: normal;
   font-weight: 700;
+}
+.azure-text044 {
+  font-style: normal;
+}
+.azure-text045 {
+  font-style: normal;
+}
+.azure-text046 {
+  font-style: normal;
+}
+.azure-text047 {
+  font-style: normal;
 }
 .azure-text048 {
+  font-style: normal;
   font-weight: 700;
 }
+.azure-text049 {
+  font-style: normal;
+}
+.azure-text050 {
+  font-style: normal;
+}
+.azure-text051 {
+  font-style: normal;
+}
+.azure-text052 {
+  font-style: normal;
+}
 .azure-text053 {
+  font-style: normal;
+  font-weight: 700;
+}
+.azure-text054 {
+  font-style: normal;
+}
+.azure-text055 {
+  font-style: normal;
+}
+.azure-text056 {
+  font-style: normal;
+}
+.azure-text057 {
+  font-style: normal;
   font-weight: 700;
 }
 .azure-text058 {
+  font-style: normal;
   font-weight: 700;
 }
+.azure-text059 {
+  font-style: normal;
+}
+.azure-text060 {
+  font-style: normal;
+}
+.azure-text061 {
+  font-style: normal;
+}
+.azure-text062 {
+  font-style: normal;
+}
 .azure-text063 {
+  font-style: normal;
   font-weight: 700;
 }
 .azure-text064 {
-  font-weight: 700;
+  font-weight: 500;
 }
 .azure-text065 {
+  font-style: normal;
   font-weight: 700;
 }
 .azure-text066 {
+  font-style: normal;
   font-weight: 700;
 }
 .azure-text067 {
+  font-style: normal;
   font-weight: 700;
+}
+.azure-text068 {
+  font-style: normal;
+  font-weight: 700;
+}
+.azure-text069 {
+  font-style: normal;
+}
+.azure-text070 {
+  font-style: normal;
+}
+.azure-text071 {
+  font-style: normal;
 }
 .azure-text072 {
+  font-style: normal;
+}
+.azure-text073 {
+  font-style: normal;
   font-weight: 700;
+}
+.azure-text074 {
+  font-style: normal;
+}
+.azure-text075 {
+  font-style: normal;
+}
+.azure-text076 {
+  font-style: normal;
 }
 .azure-text077 {
+  font-style: normal;
+}
+.azure-text078 {
+  font-style: normal;
   font-weight: 700;
 }
+.azure-text079 {
+  font-style: normal;
+}
 .azure-text080 {
+  font-style: normal;
+}
+.azure-text081 {
   color: #0052ff;
+  font-style: normal;
   font-weight: 700;
 }
 .azure-text082 {
+  font-style: normal;
+}
+.azure-text083 {
   color: #9b00ff;
+  font-style: normal;
   font-weight: 700;
 }
 .azure-text084 {
+  font-style: normal;
+}
+.azure-text085 {
   color: #e400ff;
+  font-style: normal;
   font-weight: 700;
 }
+.azure-text086 {
+  font-style: normal;
+}
+.azure-text087 {
+  font-style: normal;
+}
 .azure-text088 {
+  font-style: normal;
+}
+.azure-text089 {
+  font-style: normal;
   font-weight: 700;
+}
+.azure-text090 {
+  font-style: normal;
+}
+.azure-text091 {
+  font-style: normal;
+}
+.azure-text092 {
+  font-style: normal;
+}
+.azure-text093 {
+  font-style: normal;
+}
+.azure-text094 {
+  font-style: normal;
 }
 .azure-text-container4 {
   width: 50%;
@@ -799,38 +974,39 @@
   margin-bottom: 0px;
   flex-direction: column;
 }
-.azure-text094 {
+.azure-text095 {
+  color: var(--dl-color-scheme-black);
   font-style: normal;
   font-weight: 500;
 }
-.azure-text095 {
+.azure-text096 {
   font-weight: 700;
 }
-.azure-text100 {
+.azure-text101 {
   font-weight: 700;
 }
-.azure-text105 {
+.azure-text106 {
   font-weight: 700;
 }
-.azure-text110 {
+.azure-text111 {
   font-weight: 700;
 }
-.azure-text115 {
+.azure-text116 {
   font-weight: 700;
 }
-.azure-text120 {
+.azure-text121 {
   font-weight: 700;
 }
-.azure-text125 {
+.azure-text126 {
   font-weight: 700;
 }
-.azure-text130 {
+.azure-text131 {
   font-weight: 700;
 }
-.azure-text135 {
+.azure-text136 {
   font-weight: 700;
 }
-.azure-text140 {
+.azure-text141 {
   font-weight: 700;
 }
 .azure-container07 {
@@ -851,7 +1027,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.azure-text145 {
+.azure-text146 {
   color: #000000;
   align-self: center;
   padding-bottom: 0px;
@@ -864,7 +1040,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.azure-text146 {
+.azure-text147 {
   color: #000000;
   align-self: center;
   padding-bottom: 0px;
@@ -892,16 +1068,14 @@
   margin-bottom: 0px;
   flex-direction: column;
 }
-.azure-text147 {
+.azure-text148 {
+  color: var(--dl-color-scheme-black);
   align-self: flex-start;
   font-style: normal;
   text-align: left;
   font-weight: 500;
 }
-.azure-text148 {
-  font-weight: 700;
-}
-.azure-text153 {
+.azure-text149 {
   font-weight: 700;
 }
 .azure-text154 {
@@ -910,16 +1084,19 @@
 .azure-text155 {
   font-weight: 700;
 }
-.azure-text160 {
+.azure-text156 {
   font-weight: 700;
 }
-.azure-text165 {
+.azure-text161 {
   font-weight: 700;
 }
 .azure-text166 {
   font-weight: 700;
 }
 .azure-text167 {
+  font-weight: 700;
+}
+.azure-text168 {
   font-weight: 700;
 }
 .azure-text-container6 {
@@ -930,27 +1107,28 @@
   margin-bottom: 0px;
   flex-direction: column;
 }
-.azure-text171 {
+.azure-text172 {
+  color: var(--dl-color-scheme-black);
   align-self: flex-start;
   font-style: normal;
   font-weight: 500;
 }
-.azure-text172 {
+.azure-text173 {
   font-weight: 700;
 }
-.azure-text177 {
+.azure-text178 {
   font-weight: 700;
 }
-.azure-text179 {
-  font-weight: 700;
-}
-.azure-text184 {
+.azure-text180 {
   font-weight: 700;
 }
 .azure-text185 {
   font-weight: 700;
 }
 .azure-text186 {
+  font-weight: 700;
+}
+.azure-text187 {
   font-weight: 700;
 }
 .azure-economy-guide {
@@ -976,15 +1154,15 @@
   flex-direction: column;
   justify-content: center;
 }
-.azure-text190 {
+.azure-text191 {
   align-self: flex-start;
   margin-top: var(--dl-space-space-twounits);
   text-align: center;
   font-family: "Arial";
   margin-bottom: var(--dl-space-space-unit);
 }
-.azure-text191 {
-  color: var(--dl-color-scheme-black80);
+.azure-text192 {
+  color: var(--dl-color-scheme-black);
   align-self: flex-start;
   line-height: 26px;
   margin-bottom: var(--dl-space-space-twounits);
@@ -1049,7 +1227,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.azure-text194 {
+.azure-text195 {
   align-self: flex-start;
   margin-top: var(--dl-space-space-twounits);
   text-align: center;
@@ -1067,8 +1245,8 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.azure-text195 {
-  color: var(--dl-color-scheme-black80);
+.azure-text196 {
+  color: var(--dl-color-scheme-black);
   align-self: flex-start;
   line-height: 26px;
   margin-bottom: var(--dl-space-space-twounits);
@@ -1098,21 +1276,17 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-text202 {
+.azure-text203 {
   font-weight: 600;
   margin-bottom: 0px;
 }
-.azure-text205 {
+.azure-text206 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.azure-text206 {
-  font-family: "Arial";
+.azure-text207 {
+  font-family: "DM Sans";
 }
-.azure-text210 {
-  color: #007fff;
-  text-decoration: underline;
-}
-.azure-text222 {
+.azure-text219 {
   font-style: italic;
 }
 .azure-feature-card1 {
@@ -1140,15 +1314,15 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-text223 {
+.azure-text222 {
   font-weight: 600;
   margin-bottom: 0px;
 }
-.azure-text226 {
+.azure-text225 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.azure-text227 {
-  font-family: "Arial";
+.azure-text226 {
+  font-family: "DM Sans";
 }
 .azure-feature-card2 {
   width: 100%;
@@ -1175,35 +1349,35 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-text237 {
+.azure-text236 {
   font-weight: 600;
   margin-bottom: 0px;
 }
-.azure-text240 {
+.azure-text239 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.azure-text241 {
+.azure-text240 {
+  font-family: "DM Sans";
+}
+.azure-text242 {
   font-family: "Arial";
 }
-.azure-text243 {
+.azure-text248 {
   font-family: "Arial";
 }
-.azure-text249 {
-  font-family: "Arial";
-}
-.azure-text252 {
+.azure-text251 {
   font-family: "Arial";
 }
 .azure-link1 {
   text-decoration: underline;
 }
-.azure-text258 {
+.azure-text257 {
   font-family: "Arial";
 }
 .azure-link2 {
   text-decoration: underline;
 }
-.azure-text264 {
+.azure-text263 {
   font-family: "Arial";
 }
 .azure-feature-card3 {
@@ -1231,41 +1405,41 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-text268 {
+.azure-text267 {
   font-weight: 600;
   margin-bottom: 0px;
 }
-.azure-text271 {
+.azure-text270 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.azure-text272 {
-  font-family: "Arial";
+.azure-text271 {
+  font-family: "DM Sans";
 }
-.azure-text273 {
+.azure-text272 {
   color: var(--dl-color-scheme-darkblue);
 }
-.azure-text274 {
+.azure-text273 {
   font-family: "Arial";
+}
+.azure-text274 {
+  color: var(--dl-color-scheme-darkblue);
 }
 .azure-text275 {
   color: var(--dl-color-scheme-darkblue);
 }
-.azure-text276 {
+.azure-text279 {
   color: var(--dl-color-scheme-darkblue);
 }
 .azure-text280 {
-  color: var(--dl-color-scheme-darkblue);
+  font-family: "Arial";
 }
 .azure-text281 {
-  font-family: "Arial";
+  color: var(--dl-color-scheme-darkblue);
 }
 .azure-text282 {
   color: var(--dl-color-scheme-darkblue);
 }
-.azure-text283 {
-  color: var(--dl-color-scheme-darkblue);
-}
-.azure-text287 {
+.azure-text286 {
   color: var(--dl-color-scheme-darkblue);
 }
 .azure-feature-card4 {
@@ -1293,15 +1467,15 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-text289 {
+.azure-text288 {
   font-weight: 600;
   margin-bottom: 0px;
 }
-.azure-text292 {
+.azure-text291 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.azure-text293 {
-  font-family: "Arial";
+.azure-text292 {
+  font-family: "DM Sans";
 }
 .azure-feature-card5 {
   width: 100%;
@@ -1328,15 +1502,15 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-text319 {
+.azure-text318 {
   font-weight: 600;
   margin-bottom: 0px;
 }
-.azure-text322 {
+.azure-text321 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.azure-text323 {
-  font-family: "Arial";
+.azure-text322 {
+  font-family: "DM Sans";
 }
 .azure-feature-card6 {
   width: 100%;
@@ -1363,15 +1537,15 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-text331 {
+.azure-text330 {
   font-weight: 600;
   margin-bottom: 0px;
 }
-.azure-text334 {
+.azure-text333 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.azure-text335 {
-  font-family: "Arial";
+.azure-text334 {
+  font-family: "DM Sans";
 }
 .azure-feature-card7 {
   width: 100%;
@@ -1398,17 +1572,17 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.azure-text347 {
+.azure-text346 {
   font-weight: 600;
   margin-bottom: 0px;
 }
-.azure-text350 {
+.azure-text349 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.azure-text351 {
-  font-family: "Arial";
+.azure-text350 {
+  font-family: "DM Sans";
 }
-.azure-text356 {
+.azure-text355 {
   font-family: "Arial";
 }
 @media(max-width: 1600px) {
@@ -1575,20 +1749,23 @@
   .azure-text067 {
     font-weight: 700;
   }
-  .azure-text072 {
+  .azure-text068 {
     font-weight: 700;
   }
-  .azure-text077 {
+  .azure-text073 {
     font-weight: 700;
   }
-  .azure-text088 {
+  .azure-text078 {
+    font-weight: 700;
+  }
+  .azure-text089 {
     font-weight: 700;
   }
   .azure-text-container4 {
     width: 50%;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .azure-text094 {
+  .azure-text095 {
     width: auto;
     align-self: flex-start;
     font-style: normal;
@@ -1596,11 +1773,8 @@
     font-weight: 500;
     padding-left: 5px;
   }
-  .azure-text095 {
+  .azure-text096 {
     font-weight: bold;
-  }
-  .azure-text097 {
-    font-weight: 500;
   }
   .azure-text098 {
     font-weight: 500;
@@ -1609,10 +1783,10 @@
     font-weight: 500;
   }
   .azure-text100 {
-    font-weight: 700;
+    font-weight: 500;
   }
   .azure-text101 {
-    font-weight: 500;
+    font-weight: 700;
   }
   .azure-text102 {
     font-weight: 500;
@@ -1624,19 +1798,19 @@
     font-weight: 500;
   }
   .azure-text105 {
-    font-weight: 700;
-  }
-  .azure-text108 {
     font-weight: 500;
+  }
+  .azure-text106 {
+    font-weight: 700;
   }
   .azure-text109 {
     font-weight: 500;
   }
   .azure-text110 {
-    font-weight: 700;
+    font-weight: 500;
   }
   .azure-text111 {
-    font-weight: 500;
+    font-weight: 700;
   }
   .azure-text112 {
     font-weight: 500;
@@ -1648,10 +1822,10 @@
     font-weight: 500;
   }
   .azure-text115 {
-    font-weight: 700;
+    font-weight: 500;
   }
   .azure-text116 {
-    font-weight: 500;
+    font-weight: 700;
   }
   .azure-text117 {
     font-weight: 500;
@@ -1663,10 +1837,10 @@
     font-weight: 500;
   }
   .azure-text120 {
-    font-weight: 700;
+    font-weight: 500;
   }
   .azure-text121 {
-    font-weight: 500;
+    font-weight: 700;
   }
   .azure-text122 {
     font-weight: 500;
@@ -1678,10 +1852,10 @@
     font-weight: 500;
   }
   .azure-text125 {
-    font-weight: 700;
+    font-weight: 500;
   }
   .azure-text126 {
-    font-weight: 500;
+    font-weight: 700;
   }
   .azure-text127 {
     font-weight: 500;
@@ -1693,10 +1867,10 @@
     font-weight: 500;
   }
   .azure-text130 {
-    font-weight: 700;
+    font-weight: 500;
   }
   .azure-text131 {
-    font-weight: 500;
+    font-weight: 700;
   }
   .azure-text132 {
     font-weight: 500;
@@ -1708,10 +1882,10 @@
     font-weight: 500;
   }
   .azure-text135 {
-    font-weight: 700;
+    font-weight: 500;
   }
   .azure-text136 {
-    font-weight: 500;
+    font-weight: 700;
   }
   .azure-text137 {
     font-weight: 500;
@@ -1737,6 +1911,9 @@
   .azure-text144 {
     font-weight: 500;
   }
+  .azure-text145 {
+    font-weight: 500;
+  }
   .azure-container07 {
     width: 100%;
     margin-bottom: var(--dl-space-space-unit);
@@ -1744,7 +1921,7 @@
   .azure-heading-container4 {
     padding-bottom: 0px;
   }
-  .azure-text145 {
+  .azure-text146 {
     color: rgb(0, 0, 0);
     padding-bottom: 0px;
   }
@@ -1754,7 +1931,7 @@
     padding-bottom: 0px;
     justify-content: center;
   }
-  .azure-text146 {
+  .azure-text147 {
     color: rgb(0, 0, 0);
     align-self: center;
     padding-bottom: 0px;
@@ -1772,7 +1949,7 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  .azure-text147 {
+  .azure-text148 {
     width: auto;
     align-self: flex-start;
     font-style: normal;
@@ -1780,10 +1957,7 @@
     font-weight: 500;
     padding-right: 5px;
   }
-  .azure-text148 {
-    font-weight: 700;
-  }
-  .azure-text151 {
+  .azure-text149 {
     font-weight: 700;
   }
   .azure-text152 {
@@ -1798,14 +1972,17 @@
   .azure-text155 {
     font-weight: 700;
   }
-  .azure-text160 {
+  .azure-text156 {
+    font-weight: 700;
+  }
+  .azure-text161 {
     font-weight: 700;
   }
   .azure-text-container6 {
     width: 50%;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .azure-text171 {
+  .azure-text172 {
     width: auto;
     align-self: flex-start;
     font-style: normal;
@@ -1813,11 +1990,8 @@
     font-weight: 500;
     padding-left: 5px;
   }
-  .azure-text172 {
+  .azure-text173 {
     font-weight: bold;
-  }
-  .azure-text174 {
-    font-weight: 500;
   }
   .azure-text175 {
     font-weight: 500;
@@ -1826,10 +2000,10 @@
     font-weight: 500;
   }
   .azure-text177 {
-    font-weight: 700;
+    font-weight: 500;
   }
   .azure-text178 {
-    font-weight: 500;
+    font-weight: 700;
   }
   .azure-text179 {
     font-weight: 500;
@@ -1847,21 +2021,24 @@
     font-weight: 500;
   }
   .azure-text184 {
-    font-weight: 700;
+    font-weight: 500;
   }
   .azure-text185 {
-    font-weight: 500;
-  }
-  .azure-text186 {
     font-weight: 700;
   }
-  .azure-text187 {
+  .azure-text186 {
     font-weight: 500;
+  }
+  .azure-text187 {
+    font-weight: 700;
   }
   .azure-text188 {
     font-weight: 500;
   }
   .azure-text189 {
+    font-weight: 500;
+  }
+  .azure-text190 {
     font-weight: 500;
   }
   .azure-max-width4 {
@@ -1875,10 +2052,10 @@
   .azure-heading-container6 {
     padding-bottom: var(--dl-space-space-halfunit);
   }
-  .azure-text190 {
+  .azure-text191 {
     font-family: Arial;
   }
-  .azure-text191 {
+  .azure-text192 {
     color: var(--dl-color-scheme-black80);
     line-height: 26px;
   }
@@ -1889,14 +2066,20 @@
   .azure-max-width5 {
     padding-top: 0px;
   }
-  .azure-text194 {
+  .azure-text195 {
     font-family: Arial;
   }
-  .azure-text195 {
+  .azure-text196 {
     color: var(--dl-color-scheme-black80);
     line-height: 26px;
   }
-  .azure-text206 {
+  .azure-text207 {
+    font-family: Arial;
+  }
+  .azure-text210 {
+    font-family: Arial;
+  }
+  .azure-text211 {
     font-family: Arial;
   }
   .azure-text213 {
@@ -1905,55 +2088,49 @@
   .azure-text214 {
     font-family: Arial;
   }
-  .azure-text216 {
-    font-family: Arial;
-  }
-  .azure-text217 {
-    font-family: Arial;
-  }
-  .azure-text222 {
+  .azure-text219 {
     font-style: italic;
   }
-  .azure-text293 {
+  .azure-text292 {
     font-family: Arial;
   }
-  .azure-text300 {
+  .azure-text299 {
     font-family: Arial;
   }
-  .azure-text303 {
+  .azure-text302 {
     font-family: Arial;
   }
-  .azure-text306 {
+  .azure-text305 {
     font-family: Arial;
   }
-  .azure-text309 {
+  .azure-text308 {
     font-family: Arial;
   }
-  .azure-text312 {
+  .azure-text311 {
     font-family: Arial;
   }
-  .azure-text317 {
+  .azure-text316 {
     font-style: italic;
   }
-  .azure-text323 {
+  .azure-text322 {
     font-family: Arial;
   }
-  .azure-text325 {
+  .azure-text324 {
     font-family: Arial;
   }
-  .azure-text328 {
+  .azure-text327 {
     font-family: Arial;
   }
-  .azure-text335 {
+  .azure-text334 {
     font-family: Arial;
   }
-  .azure-text337 {
+  .azure-text336 {
     font-family: Arial;
   }
-  .azure-text340 {
+  .azure-text339 {
     font-family: Arial;
   }
-  .azure-text343 {
+  .azure-text342 {
     font-family: Arial;
   }
 }
@@ -1976,18 +2153,18 @@
     color: #000000;
     padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .azure-text145 {
-    color: #000000;
-    padding-bottom: var(--dl-space-space-oneandhalfunits);
-  }
   .azure-text146 {
     color: #000000;
     padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .azure-text190 {
-    font-family: Arial;
+  .azure-text147 {
+    color: #000000;
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
   .azure-text191 {
+    font-family: Arial;
+  }
+  .azure-text192 {
     color: var(--dl-color-scheme-black80);
     line-height: 26px;
   }
@@ -1998,10 +2175,10 @@
   .azure-max-width5 {
     padding: var(--dl-space-space-unit);
   }
-  .azure-text194 {
+  .azure-text195 {
     font-family: Arial;
   }
-  .azure-text195 {
+  .azure-text196 {
     color: var(--dl-color-scheme-black80);
     line-height: 26px;
   }
@@ -2097,7 +2274,7 @@
   .azure-text023 {
     font-size: 48px;
   }
-  .azure-text190 {
+  .azure-text191 {
     font-size: 48px;
   }
   .azure-slider {
@@ -2107,7 +2284,7 @@
   .azure-max-width5 {
     width: 100%;
   }
-  .azure-text194 {
+  .azure-text195 {
     font-size: 48px;
   }
   .azure-feature-card {

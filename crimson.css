@@ -4,21 +4,21 @@
   align-items: center;
   flex-direction: row;
 }
-.navigation-links-link {
+.navigation-links-navlink {
   cursor: pointer;
   transition: 0.3s;
   text-decoration: none;
 }
-.navigation-links-link:hover {
+.navigation-links-navlink:hover {
   color: var(--dl-color-scheme-brown);
 }
-.navigation-links-link1 {
+.navigation-links-navlink1 {
   cursor: pointer;
   transition: 0.3s;
   margin-left: 41px;
   text-decoration: none;
 }
-.navigation-links-link1:hover {
+.navigation-links-navlink1:hover {
   color: var(--dl-color-scheme-brown);
 }
 .navigation-links-text {
@@ -30,32 +30,31 @@
 .navigation-links-text:hover {
   color: var(--dl-color-scheme-brown);
 }
-.navigation-links-navlink {
+.navigation-links-text1 {
   cursor: pointer;
   transition: 0.3s;
   margin-left: 41px;
-  text-decoration: none;
 }
-.navigation-links-navlink:hover {
+.navigation-links-text1:hover {
   color: var(--dl-color-scheme-brown);
 }
-.navigation-links-link2 {
+.navigation-links-navlink2 {
   cursor: pointer;
   z-index: 100;
   transition: 0.3s;
   margin-left: 41px;
   text-decoration: none;
 }
-.navigation-links-link2:hover {
+.navigation-links-navlink2:hover {
   color: var(--dl-color-scheme-brown);
 }
-.navigation-links-link3 {
+.navigation-links-navlink3 {
   cursor: pointer;
   transition: 0.3s;
   margin-left: 41px;
   text-decoration: none;
 }
-.navigation-links-link3:hover {
+.navigation-links-navlink3:hover {
   color: var(--dl-color-scheme-brown);
 }
 
@@ -78,10 +77,10 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .navigation-links-link {
+  .navigation-links-navlink {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-link1 {
+  .navigation-links-navlink1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -89,15 +88,15 @@
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-navlink {
+  .navigation-links-text1 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-link2 {
+  .navigation-links-navlink2 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-link3 {
+  .navigation-links-navlink3 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -476,19 +475,15 @@
 .crimson-container1 {
   flex: 0 0 auto;
   width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
 }
-.crimson-image {
-  width: 200px;
-  margin-top: 100px;
-  object-fit: cover;
-  padding-top: var(--dl-space-space-oneandhalfunits);
-}
 .crimson-max-width {
+  margin-top: 110px;
   padding-top: 0px;
   padding-left: 0px;
   padding-right: 0px;
@@ -504,17 +499,36 @@
   flex-direction: column;
   justify-content: center;
 }
-.crimson-text {
-  align-self: flex-start;
-  text-align: center;
-  font-family: "Arial";
-  margin-bottom: var(--dl-space-space-halfunit);
-}
 .crimson-text-container {
   display: flex;
   align-items: center;
   margin-bottom: 0px;
   flex-direction: column;
+}
+.crimson-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-between;
+}
+.crimson-text {
+  font-size: 3rem;
+  align-self: flex-end;
+  text-align: left;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.crimson-image {
+  width: 200px;
+  margin-top: 0px;
+  object-fit: cover;
+  padding-top: 0px;
+}
+.crimson-separator {
+  width: 100px;
+  height: 2px;
+  align-self: flex-start;
+  background-color: #595959;
 }
 .crimson-text01 {
   color: var(--dl-color-scheme-black80);
@@ -524,21 +538,18 @@
   margin-right: 0px;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.crimson-text20 {
+.crimson-text21 {
   font-style: italic;
 }
 @media(max-width: 1600px) {
-  .crimson-image {
-    padding-top: var(--dl-space-space-threeunits);
-  }
   .crimson-max-width {
     padding-top: 0px;
   }
-  .crimson-text {
-    font-family: Arial;
-  }
   .crimson-text-container {
     margin-bottom: var(--dl-space-space-unit);
+  }
+  .crimson-image {
+    padding-top: var(--dl-space-space-threeunits);
   }
   .crimson-text01 {
     color: var(--dl-color-scheme-black80);
@@ -548,11 +559,6 @@
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
-  }
-}
-@media(max-width: 1200px) {
-  .crimson-text {
-    font-family: Arial;
   }
 }
 @media(max-width: 991px) {
@@ -566,6 +572,6 @@
 }
 @media(max-width: 767px) {
   .crimson-text {
-    font-size: 48px;
+    text-align: center;
   }
 }
