@@ -30,17 +30,8 @@
 .navigation-links-text:hover {
   color: var(--dl-color-scheme-brown);
 }
-.navigation-links-text1 {
-  cursor: pointer;
-  transition: 0.3s;
-  margin-left: 41px;
-}
-.navigation-links-text1:hover {
-  color: var(--dl-color-scheme-brown);
-}
 .navigation-links-navlink2 {
   cursor: pointer;
-  z-index: 100;
   transition: 0.3s;
   margin-left: 41px;
   text-decoration: none;
@@ -50,11 +41,21 @@
 }
 .navigation-links-navlink3 {
   cursor: pointer;
+  z-index: 100;
   transition: 0.3s;
   margin-left: 41px;
   text-decoration: none;
 }
 .navigation-links-navlink3:hover {
+  color: var(--dl-color-scheme-brown);
+}
+.navigation-links-navlink4 {
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 41px;
+  text-decoration: none;
+}
+.navigation-links-navlink4:hover {
   color: var(--dl-color-scheme-brown);
 }
 
@@ -88,15 +89,15 @@
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links-text1 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
   .navigation-links-navlink2 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
   .navigation-links-navlink3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-navlink4 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -521,13 +522,15 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .about-text004 {
-  color: var(--dl-color-scheme-black80);
+  color: var(--dl-color-scheme-black);
+  font-size: 14px;
   align-self: center;
   text-align: justify;
 }
 .about-image {
   width: 400px;
   height: 400px;
+  align-self: center;
   object-fit: cover;
   flex-shrink: 0;
   margin-left: var(--dl-space-space-halfunit);
@@ -571,7 +574,7 @@
   justify-content: space-between;
 }
 .about-text017 {
-  color: var(--dl-color-scheme-black80);
+  color: var(--dl-color-scheme-black);
   align-self: flex-start;
   line-height: 26px;
   margin-bottom: var(--dl-space-space-twounits);
@@ -600,6 +603,7 @@
   margin-bottom: 0px;
 }
 .about-text024 {
+  color: var(--dl-color-scheme-black);
   font-family: "DM Sans";
 }
 .about-text025 {
@@ -726,12 +730,10 @@
   font-family: "DM Sans";
 }
 .about-text063 {
-  color: #007fff;
   font-family: "DM Sans";
   text-decoration: underline;
 }
 .about-text064 {
-  color: #007fff;
   text-decoration: underline;
 }
 .about-text067 {
@@ -854,7 +856,7 @@
   background-color: #595959;
 }
 .about-text147 {
-  color: var(--dl-color-scheme-black80);
+  color: var(--dl-color-scheme-black);
   align-self: flex-start;
   line-height: 26px;
   margin-bottom: var(--dl-space-space-twounits);
