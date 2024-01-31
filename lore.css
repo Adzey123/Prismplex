@@ -569,15 +569,20 @@
   color: #ffffff;
   width: 251px;
   height: 70px;
+  display: flex;
+  position: relative;
   padding-top: 0px;
   padding-left: 0px;
   padding-right: 0px;
+  flex-direction: row;
   padding-bottom: 0px;
   text-decoration: none;
   background-color: #75321e;
 }
 .lore-text10 {
   font-size: 32px;
+  align-self: center;
+  text-align: center;
 }
 .lore-icon {
   fill: var(--dl-color-scheme-brown);
