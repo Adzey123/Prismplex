@@ -600,7 +600,7 @@
 }
 .azure-link {
   color: #ffffff;
-  width: 267px;
+  width: var(--dl-size-size-xxlarge);
   height: 83px;
   align-self: center;
   margin-top: var(--dl-space-space-twounits);
@@ -612,11 +612,18 @@
   text-decoration: none;
   background-color: #2578ff;
 }
+.azure-text020 {
+  padding-top: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.azure-text021 {
+  font-size: 36px;
+}
 .azure-icon {
-  fill: #2578ff;
-  width: auto;
-  height: 100%;
-  margin-left: var(--dl-space-space-oneandhalfunits);
+  fill: #ffffff;
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  margin-left: var(--dl-space-space-unit);
   margin-right: 0px;
 }
 .azure-container05 {
