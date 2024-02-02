@@ -528,12 +528,12 @@
   text-align: justify;
 }
 .about-image {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   align-self: center;
   object-fit: cover;
   flex-shrink: 0;
-  margin-left: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-tripleunit);
   object-position: left;
 }
 .about-text016 {
