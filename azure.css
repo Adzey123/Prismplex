@@ -598,6 +598,14 @@
   align-items: flex-start;
   justify-content: center;
 }
+.azure-container05 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 83px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
 .azure-link {
   color: #ffffff;
   width: var(--dl-size-size-xxlarge);
@@ -620,13 +628,13 @@
   font-size: 36px;
 }
 .azure-icon {
-  fill: #ffffff;
-  width: var(--dl-size-size-small);
-  height: var(--dl-size-size-small);
+  fill: #2578ff;
+  width: auto;
+  height: 100%;
   margin-left: var(--dl-space-space-unit);
   margin-right: 0px;
 }
-.azure-container05 {
+.azure-container06 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -687,7 +695,7 @@
   padding-bottom: 0px;
   justify-content: flex-end;
 }
-.azure-container06 {
+.azure-container07 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -720,14 +728,14 @@
   align-self: center;
   padding-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.azure-container07 {
+.azure-container08 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.azure-container08 {
+.azure-container09 {
   flex: 0 0 auto;
   width: 100%;
   height: 100%;
@@ -1016,7 +1024,7 @@
 .azure-text141 {
   font-weight: 700;
 }
-.azure-container09 {
+.azure-container10 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -1052,14 +1060,14 @@
   align-self: center;
   padding-bottom: 0px;
 }
-.azure-container10 {
+.azure-container11 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.azure-container11 {
+.azure-container12 {
   flex: 0 0 auto;
   width: 100%;
   height: 100%;
@@ -1174,7 +1182,7 @@
   line-height: 26px;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.azure-container12 {
+.azure-container13 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -1267,7 +1275,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.azure-container13 {
+.azure-container14 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -1277,7 +1285,7 @@
   width: 200px;
   object-fit: cover;
 }
-.azure-container14 {
+.azure-container15 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -1305,7 +1313,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.azure-container15 {
+.azure-container16 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -1315,7 +1323,7 @@
   width: 200px;
   object-fit: cover;
 }
-.azure-container16 {
+.azure-container17 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -1340,7 +1348,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.azure-container17 {
+.azure-container18 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -1350,7 +1358,7 @@
   width: 200px;
   object-fit: cover;
 }
-.azure-container18 {
+.azure-container19 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -1396,7 +1404,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.azure-container19 {
+.azure-container20 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -1406,7 +1414,7 @@
   width: 200px;
   object-fit: cover;
 }
-.azure-container20 {
+.azure-container21 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -1458,7 +1466,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.azure-container21 {
+.azure-container22 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -1468,7 +1476,7 @@
   width: 200px;
   object-fit: cover;
 }
-.azure-container22 {
+.azure-container23 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -1493,7 +1501,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.azure-container23 {
+.azure-container24 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -1503,7 +1511,7 @@
   width: 200px;
   object-fit: cover;
 }
-.azure-container24 {
+.azure-container25 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -1528,7 +1536,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.azure-container25 {
+.azure-container26 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -1538,7 +1546,7 @@
   width: 200px;
   object-fit: cover;
 }
-.azure-container26 {
+.azure-container27 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -1563,7 +1571,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.azure-container27 {
+.azure-container28 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -1573,7 +1581,7 @@
   width: 200px;
   object-fit: cover;
 }
-.azure-container28 {
+.azure-container29 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -1677,7 +1685,7 @@
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: 0px;
   }
-  .azure-container06 {
+  .azure-container07 {
     width: 100%;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -1699,7 +1707,7 @@
     align-self: center;
     padding-bottom: 0px;
   }
-  .azure-container07 {
+  .azure-container08 {
     height: auto;
     align-items: flex-start;
     margin-bottom: var(--dl-space-space-unit);
@@ -1921,7 +1929,7 @@
   .azure-text145 {
     font-weight: 500;
   }
-  .azure-container09 {
+  .azure-container10 {
     width: 100%;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -1943,7 +1951,7 @@
     align-self: center;
     padding-bottom: 0px;
   }
-  .azure-container10 {
+  .azure-container11 {
     height: auto;
     align-items: flex-start;
     margin-bottom: 0px;
@@ -2291,80 +2299,80 @@
     flex-wrap: wrap;
     flex-direction: row;
   }
-  .azure-container13 {
+  .azure-container14 {
     flex-direction: column;
   }
-  .azure-container14 {
+  .azure-container15 {
     flex-direction: column;
   }
   .azure-feature-card1 {
     flex-wrap: wrap;
     flex-direction: row;
   }
-  .azure-container15 {
+  .azure-container16 {
     flex-direction: column;
   }
-  .azure-container16 {
+  .azure-container17 {
     flex-direction: column;
   }
   .azure-feature-card2 {
     flex-wrap: wrap;
     flex-direction: row;
   }
-  .azure-container17 {
+  .azure-container18 {
     flex-direction: column;
   }
-  .azure-container18 {
+  .azure-container19 {
     flex-direction: column;
   }
   .azure-feature-card3 {
     flex-wrap: wrap;
     flex-direction: row;
   }
-  .azure-container19 {
+  .azure-container20 {
     flex-direction: column;
   }
-  .azure-container20 {
+  .azure-container21 {
     flex-direction: column;
   }
   .azure-feature-card4 {
     flex-wrap: wrap;
     flex-direction: row;
   }
-  .azure-container21 {
+  .azure-container22 {
     flex-direction: column;
   }
-  .azure-container22 {
+  .azure-container23 {
     flex-direction: column;
   }
   .azure-feature-card5 {
     flex-wrap: wrap;
     flex-direction: row;
   }
-  .azure-container23 {
+  .azure-container24 {
     flex-direction: column;
   }
-  .azure-container24 {
+  .azure-container25 {
     flex-direction: column;
   }
   .azure-feature-card6 {
     flex-wrap: wrap;
     flex-direction: row;
   }
-  .azure-container25 {
+  .azure-container26 {
     flex-direction: column;
   }
-  .azure-container26 {
+  .azure-container27 {
     flex-direction: column;
   }
   .azure-feature-card7 {
     flex-wrap: wrap;
     flex-direction: row;
   }
-  .azure-container27 {
+  .azure-container28 {
     flex-direction: column;
   }
-  .azure-container28 {
+  .azure-container29 {
     flex-direction: column;
   }
 }
@@ -2373,9 +2381,6 @@
     width: 252px;
     height: 151px;
   }
-  .azure-container13 {
-    flex-direction: column;
-  }
   .azure-container14 {
     flex-direction: column;
   }
@@ -2419,6 +2424,9 @@
     flex-direction: column;
   }
   .azure-container28 {
+    flex-direction: column;
+  }
+  .azure-container29 {
     flex-direction: column;
   }
 }
