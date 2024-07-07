@@ -1632,14 +1632,20 @@
     border-style: outset;
     border-width: 5px;
   }
+  .azure-container03 {
+    height: var(--dl-size-size-medium);
+    align-items: center;
+    justify-content: center;
+  }
   .azure-link {
     color: #ffffff;
-    width: 387px;
-    height: 96px;
-    margin-top: var(--dl-space-space-twounits);
+    width: 315px;
+    height: var(--dl-size-size-medium);
+    margin-top: 0px;
     text-align: center;
     border-style: ridge;
     border-width: 0px;
+    margin-bottom: 0px;
     background-color: #015aff;
   }
   .azure-icon {
